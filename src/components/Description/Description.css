@@ -1,0 +1,40 @@
+.description {
+  max-width: 900px;       
+  margin: 50px auto;      
+  padding: 30px;
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+
+.description h1 {
+  font-size: 42px;
+  color: #5a2c3b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description p {
+  margin-bottom: 15px;
+}
+
+.description ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
+.description li {
+  margin-bottom: 10px;
+}
+
+.description h4 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #5a2c3b;
+}
