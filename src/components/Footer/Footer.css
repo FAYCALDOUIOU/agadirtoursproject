@@ -1,0 +1,52 @@
+.footer { background: #fff; font-family: system-ui, Arial, sans-serif; }
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 30px 16px 18px;
+}
+
+.iconBox {
+  width: 130px;
+  height: 130px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.iconBox img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+/* background colors like screenshot */
+.tripadvisor { background: #5a8f3a; }
+.getguide    { background: #fff; }
+.facebook    { background: #3b5998; }
+.instagram   { background: #b0004b; }
+
+.footer-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 16px;
+  border-top: 1px solid #eaeaea;
+  background: #f7f7f7;
+}
+
+.toTop {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 3px solid #f08a00;
+  background: #fff;
+  color: #f08a00;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.copy { margin: 0; color: #444; font-size: 20px; }
