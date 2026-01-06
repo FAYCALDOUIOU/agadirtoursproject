@@ -1,6 +1,6 @@
 import React from 'react';
 import './Description.css';
-
+import Gallery from './Gallery';
 function Description() {
     return (
         <div className="description">
@@ -33,6 +33,7 @@ function Description() {
                 panoramic views of the city and the Atlantic Ocean.
             </p>
 
+            <Gallery />
         </div>
     );
 }
